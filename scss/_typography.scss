@@ -1,0 +1,104 @@
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 4.0rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+h3 {
+  font-size: 3.0rem;
+}
+h4 {
+  font-size: 2.0rem;
+}
+h5 {
+  font-size: 1.8rem;
+}
+h6 {
+  font-size: 1.5rem;
+}
+
+.logo {
+  @include hide-text;
+  background-image: url('../images/logo.svg');
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+  @media (min-width: $phablet-breakpoint) {
+    margin: 0;
+  }
+  &:before {
+    @include retinize-content(logo-animated, gif);
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  &:hover {
+    @include retinize(logo-animated, gif, 70px, 70px);
+  }
+  &:active {
+    background-image: url('../images/logo.svg');
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: $phablet-breakpoint) {
+  h1 {
+    font-size: 6.0rem;
+  }
+  h2, blockquote p {
+    font-size: 6.0rem;
+  }
+  h3 {
+    font-size: 4.8rem;
+  }
+
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+blockquote {
+  padding: 0;
+  margin: 0;
+  p {
+    @include border-surround;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  cite {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.0rem;
+  }
+}
+
+.primary-quote {
+  position: absolute;
+  margin-top: -14rem;
+  background: white;
+  padding: 4rem 0 4rem 4rem;
+
+}
+
+.section-header {
+    @include border-surround;
+}

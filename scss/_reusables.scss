@@ -1,0 +1,136 @@
+//------------------------------------
+//   FONTS
+//------------------------------------
+
+
+
+//------------------------------------
+//   VARIABLES
+//------------------------------------
+
+//font-stacks
+$sans-serif:        "adelle-sans", Helvetica, Arial, sans-serif;
+$serif:             "tiempos-headline", Cambria, Times New Roman, Times, serif;
+
+//colors
+$main-color: #000;
+$link-color: #000;
+
+//paths
+$image-path:  '../images';
+
+
+
+// Breakpoints
+$container-width: 1200px;
+$hd: 1920px;
+$desktop-breakpoint: 1260px;
+$tablet-breakpoint: 700px;
+$phablet-breakpoint: 550px;
+$mobile-breakpoint: 400px;
+
+
+//------------------------------------
+//   MIXINS
+//------------------------------------
+
+
+// Retina
+@mixin retinize($file, $type, $width, $height) {
+  background-image: url('../images/' + $file + '.' + $type);
+
+  @media (-webkit-min-device-pixel-ratio: 1.5),
+         (min--moz-device-pixel-ratio: 1.5),
+         (-o-min-device-pixel-ratio: 3/2),
+         (min-device-pixel-ratio: 1.5),
+         (min-resolution: 1.5dppx) {
+    & {
+      background-image: url('../images/' + $file + '-2x.' + $type);
+      -webkit-background-size: $width $height;
+         -moz-background-size: $width $height;
+              background-size: $width $height;
+    }
+  }
+}
+
+// Retina
+@mixin retinize-content($file, $type) {
+  content: url('../images/' + $file + '.' + $type);
+
+  @media (-webkit-min-device-pixel-ratio: 1.5),
+         (min--moz-device-pixel-ratio: 1.5),
+         (-o-min-device-pixel-ratio: 3/2),
+         (min-device-pixel-ratio: 1.5),
+         (min-resolution: 1.5dppx) {
+    & {
+      content: url('../images/' + $file + '-2x.' + $type);
+    }
+  }
+}
+
+
+//Box-Sizing
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+
+//Border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+//Opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+//Text truncate  - when text overflows its container
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+//Hide text
+@mixin hide-text{
+    overflow:hidden;
+    text-indent:-9000px;
+    display:block;
+}
+
+//Horizontal Navigation lists
+@mixin navigation-list {
+    list-style-type:none;
+    > li{
+
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}
+
+@mixin border-surround {
+  border-top: 5px solid #000;
+  padding: 2rem 0;
+  border-bottom: 5px solid #000;
+}
+
+//------------------------------------
+//   Placeholders
+//------------------------------------
+
+
+//Concatenate  - when text overflows its container
+%concatenated {
+  text-overflow: ellipsis;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
