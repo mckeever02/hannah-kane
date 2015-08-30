@@ -1,1 +1,1 @@
-$(document).ready(function(){$("img").unveil(200,function(){$(this).load(function(){this.style.opacity=1})})});
+if($(document).ready(function(){$("img").unveil(200,function(){$(this).load(function(){this.style.opacity=1})})}),!Modernizr.svg)for(var imgs=document.getElementsByTagName("img"),svgExtension=/.*\.svg$/,l=imgs.length,i=0;l>i;i++)imgs[i].src.match(svgExtension)&&(imgs[i].src=imgs[i].src.slice(0,-3)+"png",console.log(imgs[i].src));

@@ -37,7 +37,11 @@ nav[role="navigation"] {
   }
   li {
     margin: 0;
-    margin-right: 6rem;
+    margin-right: 3rem;
+    @media (min-width: $phablet-breakpoint) {
+          margin-right: 6rem;
+    }
+
     display: inline;
     a {
       display: inline-block;
@@ -49,12 +53,20 @@ nav[role="navigation"] {
   margin-top: 6rem;
   list-style-type: none;
   li {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
   }
   h4 {
     margin-bottom: 0;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+  @media (min-width: $phablet-breakpoint ) {
+    p {
+      font-size: 1.4rem;
+    }
+    li {
+      margin-bottom: 8rem;
+    }
   }
 }

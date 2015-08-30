@@ -24,11 +24,18 @@ img {
 }
 
 section {
-  margin-bottom: 12rem;
+  margin-bottom: 6rem;
+  @media (min-width: $tablet-breakpoint) {
+      margin-bottom: 12rem;
+  }
+
 }
 footer {
-  margin-top: 24rem;
+  margin-top: 12rem;
   border-top: 2px solid #000;
+  @media (min-width: $tablet-breakpoint) {
+    margin-top: 24rem;
+  }
   p {
     padding: 20px 0;
     font-size: 100%;
