@@ -2,320 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19051",
 "files": {
-	"\/bower_components\/jquery-unveil\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 387125,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 121336,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 397290,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 192704,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 501471,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 187923,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 522463,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 91322,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75878,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28580,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 214627,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 101829,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 498059,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 87495,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 92261,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 380648,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74721,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 84453,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 50908,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-1280x800.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 575761,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-1280x800.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-1280x800.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 285431,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bower_components\/jquery-unveil\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/jquery-unveil\/jquery-1.9.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/jquery-1.9.1.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/min\/jquery-1.9.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/jquery-unveil\/jquery.unveil.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/jquery.unveil.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/min\/jquery.unveil-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/jquery-unveil\/jquery.unveil.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/jquery.unveil.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/min\/jquery.unveil.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/jquery-unveil\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/jquery-unveil\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery-unveil\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/bower_components\/jquery-unveil\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/casualty.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -345,7 +31,7 @@
 		"outputAbbreviatedPath": "\/images\/casualty-2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/casualty.jpg": {
 		"fileType": 16384,
@@ -356,7 +42,7 @@
 		"outputAbbreviatedPath": "\/images\/casualty.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/favicon.png": {
 		"fileType": 32768,
@@ -367,7 +53,7 @@
 		"outputAbbreviatedPath": "\/images\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/gun-shot-2x.jpg": {
 		"fileType": 16384,
@@ -378,7 +64,7 @@
 		"outputAbbreviatedPath": "\/images\/gun-shot-2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/gun-shot.jpg": {
 		"fileType": 16384,
@@ -389,7 +75,7 @@
 		"outputAbbreviatedPath": "\/images\/gun-shot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/hannah.jpg": {
 		"fileType": 16384,
@@ -400,7 +86,7 @@
 		"outputAbbreviatedPath": "\/images\/hannah.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
@@ -411,7 +97,7 @@
 		"outputAbbreviatedPath": "\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/lyndsey-2.jpg": {
 		"fileType": 16384,
@@ -422,7 +108,7 @@
 		"outputAbbreviatedPath": "\/images\/lyndsey-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/lyndsey-2x.jpg": {
 		"fileType": 16384,
@@ -433,7 +119,7 @@
 		"outputAbbreviatedPath": "\/images\/lyndsey-2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/lyndsey.jpg": {
 		"fileType": 16384,
@@ -444,7 +130,7 @@
 		"outputAbbreviatedPath": "\/images\/lyndsey.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/mairead.jpg": {
 		"fileType": 16384,
@@ -455,7 +141,7 @@
 		"outputAbbreviatedPath": "\/images\/mairead.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/period.jpg": {
 		"fileType": 16384,
@@ -466,7 +152,7 @@
 		"outputAbbreviatedPath": "\/images\/period.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -476,17 +162,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/js\/jquery.unveil.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.unveil.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.unveil-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/js\/libs\/jquery.js": {
 		"fileType": 64,
@@ -798,7 +473,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "hannah-kane",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_brown"
+	"iconImageName": "\/images\/logo.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

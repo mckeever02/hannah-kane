@@ -80,19 +80,18 @@ img {
 }
 
 .headline {
-  margin-top: -14rem;
   float: left;
   h2 {
     padding-top: 2rem;
     animation-delay: .4s;
     margin-bottom: 4rem;
   }
-  
+
   .headline-body {
     animation-delay: .8s;
   }
   @media (min-width: $tablet-breakpoint) {
-
+      margin-top: -14rem;
       background: white;
       z-index: 2;
       h2 {
