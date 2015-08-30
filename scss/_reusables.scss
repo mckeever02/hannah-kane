@@ -106,6 +106,7 @@ $mobile-breakpoint: 400px;
 
 //Horizontal Navigation lists
 @mixin navigation-list {
+    text-align: center;
     list-style-type:none;
     > li{
 

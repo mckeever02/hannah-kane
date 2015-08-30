@@ -37,12 +37,11 @@ nav[role="navigation"] {
   }
   li {
     margin: 0;
-    margin-right: 3rem;
+    margin-right: 4rem;
     @media (min-width: $phablet-breakpoint) {
           margin-right: 6rem;
     }
-
-    display: inline;
+    display: inline!important;
     a {
       display: inline-block;
     }
