@@ -35,6 +35,10 @@ h6 {
   @media (min-width: $phablet-breakpoint) {
     margin: 0;
   }
+}
+
+//add animated logo for non-touch devices
+.no-touch .header .logo {
   &:before {
     @include retinize-content(logo-animated, gif);
     width: 0;
@@ -47,14 +51,6 @@ h6 {
   &:active {
     background-image: url('../images/logo.svg');
   }
-}
-
-//disable animated logo on touch devices
-.touch .logo:before, .touch .logo:hover {
-  background-image: url('../images/logo.svg');
-  width: 70px;
-  height: 70px;
-  visibility: visible;
 }
 
 /* Larger than phablet */
