@@ -89,6 +89,18 @@
 
 }
 
+.three-layout-columns {
+    column-count: 1;
+  @media (min-width: 695px ) {
+    column-count: 2;
+    column-gap: 4rem;
+  }
+  @media (min-width: 1060px) {
+    column-count: 3;
+  }
+
+}
+
 .two-layout-columns {
   -webkit-column-count: 1;
      -moz-column-count: 1;
@@ -103,9 +115,9 @@
 
 .secondary-container {
   @media (min-width: $tablet-breakpoint) {
-    width: 70%;
+    // width: 70%;
     position: relative;
-    max-width: 834px;
+    // max-width: 834px;
   }
 }
 
