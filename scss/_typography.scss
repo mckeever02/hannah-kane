@@ -18,7 +18,7 @@ h3 {
   font-size: 3.0rem;
 }
 h4 {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
 }
 h5 {
   font-size: 1.8rem;
@@ -61,7 +61,7 @@ h6 {
     font-size: 6.0rem;
   }
   h2, blockquote p {
-    font-size: 6.0rem;
+    font-size: 7.0rem;
   }
   h3 {
     font-size: 4.8rem;
@@ -79,7 +79,7 @@ p {
   margin-top: 0;
   font-size: 1.8rem;
   @media (min-width: $phablet-breakpoint) {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -116,4 +116,5 @@ blockquote {
 
 .section-header {
     @include border-surround;
+    margin-bottom: 6rem;
 }
