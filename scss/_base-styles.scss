@@ -29,7 +29,7 @@ img {
 section {
   margin-bottom: 6rem;
   @media (min-width: $tablet-breakpoint) {
-      margin-bottom: 12rem;
+      margin-bottom: 18rem;
   }
 
 }
@@ -110,7 +110,6 @@ img {
 }
 
 .headline--headline {
-
   @media (min-width: $tablet-breakpoint) {
     width: 80%;
     background: #fff;
@@ -121,5 +120,28 @@ img {
   animation-delay: .8s;
   p {
     text-align: justify;
+  }
+}
+
+.roster-item {
+  position: relative;
+  img {
+    position: relative;
+    max-width: 280px;
+  }
+  p {
+    // margin-bottom: 5px;
+  }
+  figcaption {
+    padding: 2rem 0;
+    @media (min-width: 1140px) {
+      padding: 2rem 2rem 0;
+      background: white;
+      position: absolute;
+      top: 70%;
+      right: 0;
+      width: 294px;
+    }
+
   }
 }

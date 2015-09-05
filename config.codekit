@@ -11,6 +11,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bmc-fashion-show-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104014,
+		"inputAbbreviatedPath": "\/images\/bmc-fashion-show-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bmc-fashion-show-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bmc-fashion-show.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33101,
+		"inputAbbreviatedPath": "\/images\/bmc-fashion-show.jpg",
+		"outputAbbreviatedPath": "\/images\/bmc-fashion-show.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/casualty-2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -32,6 +54,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/elephant-in-the-room-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53244,
+		"inputAbbreviatedPath": "\/images\/elephant-in-the-room-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/elephant-in-the-room-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/elephant-in-the-room.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21545,
+		"inputAbbreviatedPath": "\/images\/elephant-in-the-room.jpg",
+		"outputAbbreviatedPath": "\/images\/elephant-in-the-room.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/favicon.png": {
 		"fileType": 32768,
@@ -76,6 +120,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/into-the-forest-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115596,
+		"inputAbbreviatedPath": "\/images\/into-the-forest-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/into-the-forest-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/into-the-forest.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33954,
+		"inputAbbreviatedPath": "\/images\/into-the-forest.jpg",
+		"outputAbbreviatedPath": "\/images\/into-the-forest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
@@ -142,6 +208,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/sleep-tight-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23713,
+		"inputAbbreviatedPath": "\/images\/sleep-tight-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/sleep-tight-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sleep-tight.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9240,
+		"inputAbbreviatedPath": "\/images\/sleep-tight.jpg",
+		"outputAbbreviatedPath": "\/images\/sleep-tight.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/swot-fashion-show-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88665,
+		"inputAbbreviatedPath": "\/images\/swot-fashion-show-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/swot-fashion-show-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/swot-fashion-show.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32599,
+		"inputAbbreviatedPath": "\/images\/swot-fashion-show.jpg",
+		"outputAbbreviatedPath": "\/images\/swot-fashion-show.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/trash-fashion-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88514,
+		"inputAbbreviatedPath": "\/images\/trash-fashion-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/trash-fashion-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/trash-fashion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33366,
+		"inputAbbreviatedPath": "\/images\/trash-fashion.jpg",
+		"outputAbbreviatedPath": "\/images\/trash-fashion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,

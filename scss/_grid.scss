@@ -90,6 +90,7 @@
 }
 
 .three-layout-columns {
+    column-width: 30%;
     column-count: 1;
   @media (min-width: 695px ) {
     column-count: 2;
