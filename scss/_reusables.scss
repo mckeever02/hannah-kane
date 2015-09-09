@@ -18,8 +18,8 @@ $sans-serif:        "adelle-sans", Helvetica, Arial, sans-serif;
 $serif:             "tiempos-headline", Cambria, Times New Roman, Times, serif;
 
 //colors
-$main-color: #000;
-$link-color: #000;
+$main-color: #010202;
+$link-color: #010202;
 
 //paths
 $image-path:  '../images';
@@ -122,9 +122,9 @@ $mobile-breakpoint: 400px;
 }
 
 @mixin border-surround {
-  border-top: 5px solid #000;
+  border-top: 5px solid $main-color;
   padding: 2rem 0;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid $main-color;
 }
 
 //------------------------------------

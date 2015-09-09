@@ -32,24 +32,27 @@ nav[role="navigation"] {
   }
   ul {
     @include navigation-list;
-    padding-top: 28px;
+    padding-top: 18px;
+    width: 100%;
     font-weight: bold;
+    @media (min-width: $phablet-breakpoint) {
+      padding-top: 28px;
+    }
   }
   li {
     margin: 0;
     margin-right: 4rem;
-    @media (min-width: $phablet-breakpoint) {
-          margin-right: 6rem;
-    }
     display: inline!important;
     a {
       display: inline-block;
+    }
+    @media (min-width: $phablet-breakpoint) {
+          margin-right: 6rem;
     }
   }
 }
 
 .sublist {
-  position: relative;
   margin-top: 6rem;
   list-style-type: none;
   li {

@@ -1,6 +1,6 @@
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
+/*
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
@@ -8,6 +8,7 @@ html {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 html, * {
   @include box-sizing(border-box);
@@ -17,7 +18,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: $sans-serif;
-  color: #000;
+  color: $main-color;
   position: relative;
 }
 
@@ -31,11 +32,11 @@ section {
   @media (min-width: $tablet-breakpoint) {
       margin-bottom: 18rem;
   }
-
 }
+
 footer {
   margin-top: 12rem;
-  border-top: 2px solid #000;
+  border-top: 2px solid $main-color;
   @media (min-width: $tablet-breakpoint) {
     margin-top: 24rem;
   }
@@ -46,13 +47,13 @@ footer {
   }
 }
 
-.header-main {
+.header--main {
+  border-top: 5px solid $main-color;
   padding: 10px 0;
   @media (min-width: $phablet-breakpoint) {
       padding: 20px 0;
+      margin-bottom: 3rem;
   }
-  margin-bottom: 6rem;
-  border-top: 5px solid #000;
 }
 
 figure {
@@ -66,7 +67,7 @@ img {
 }
 
 .photo-container {
-  background: #000;
+  background: $main-color;
   position: relative;
   height: 0;
   overflow: hidden;
@@ -93,26 +94,30 @@ img {
 }
 
 .headline {
+  margin-top: -7rem;
   float: left;
+  position: relative;
+  z-index: 2;
   h2 {
-    padding-top: 2rem;
     animation-delay: .4s;
-    margin-bottom: 6rem;
+    padding: .5rem .6rem 0 0;
   }
 
   @media (min-width: $tablet-breakpoint) {
       margin-top: -14rem;
-      z-index: 2;
       h2 {
         padding: 2rem 2rem 0 0;
+        margin-bottom: 6rem;
       }
   }
 }
 
 .headline--headline {
+  background: #fff;
+  width: 92%;
   @media (min-width: $tablet-breakpoint) {
     width: 80%;
-    background: #fff;
+
   }
 }
 
@@ -125,21 +130,21 @@ img {
 
 .roster-item {
   position: relative;
+  margin-bottom: 5rem;
   img {
     position: relative;
     max-width: 280px;
   }
-  p {
-    // margin-bottom: 5px;
-  }
   figcaption {
-    padding: 2rem 0;
+    padding: 1rem 1rem 0;
+    background: white;
+    position: absolute;
+    margin-top: -5rem;
     @media (min-width: 1140px) {
       padding: 2rem 2rem 0;
-      background: white;
-      position: absolute;
-      top: 70%;
       right: 0;
+      margin-top: 0;
+      top: 70%;
       width: 294px;
     }
 
