@@ -632,7 +632,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "adelle-sans", Helvetica, Arial, sans-serif;
-  color: #010202;
+  color: #050309;
   position: relative; }
 
 img {
@@ -647,7 +647,7 @@ section {
 
 footer {
   margin-top: 12rem;
-  border-top: 2px solid #010202; }
+  border-top: 2px solid #050309; }
   @media (min-width: 700px) {
     footer {
       margin-top: 24rem; } }
@@ -657,7 +657,7 @@ footer {
     margin: 0; }
 
 .header--main {
-  border-top: 5px solid #010202;
+  border-top: 5px solid #050309;
   padding: 10px 0; }
   @media (min-width: 550px) {
     .header--main {
@@ -674,7 +674,7 @@ img {
           transition: opacity .3s ease-in; }
 
 .photo-container {
-  background: #010202;
+  background: #050309;
   position: relative;
   height: 0;
   overflow: hidden; }
@@ -849,9 +849,9 @@ blockquote {
   padding: 0;
   margin: 0; }
   blockquote p {
-    border-top: 5px solid #010202;
+    border-top: 5px solid #050309;
     padding: 2rem 0;
-    border-bottom: 5px solid #010202;
+    border-bottom: 5px solid #050309;
     line-height: 1.2;
     font-weight: bold; }
   blockquote cite {
@@ -879,15 +879,15 @@ blockquote {
       position: absolute; } }
 
 .section-header {
-  border-top: 5px solid #010202;
+  border-top: 5px solid #050309;
   padding: 2rem 0;
-  border-bottom: 5px solid #010202;
+  border-bottom: 5px solid #050309;
   margin-bottom: 6rem; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 p a, nav a, .inline-link {
-  color: #010202;
+  color: #050309;
   font-weight: bold;
   text-decoration: none;
   vertical-align: bottom;
@@ -911,7 +911,7 @@ p a, nav a, .inline-link {
     padding: 0 5px;
     width: 100%;
     height: 100%;
-    border: 3px solid #010202;
+    border: 3px solid #050309;
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
@@ -938,7 +938,7 @@ p a:hover:before, p a:focus:before {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #010202;
+  color: #050309;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
