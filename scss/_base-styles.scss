@@ -38,8 +38,8 @@ footer {
 
 .header-main {
   padding: 20px 0;
-  margin-bottom: 6rem;
-  border-bottom: 2px solid #000;
+  margin-bottom: 2rem;
+  //border-bottom: 2px solid #000;
 }
 
 figure {
@@ -87,7 +87,7 @@ img {
     animation-delay: .4s;
     margin-bottom: 4rem;
   }
-  
+
   .headline-body {
     animation-delay: .8s;
   }
@@ -96,7 +96,19 @@ img {
       background: white;
       z-index: 2;
       h2 {
-        padding: 2rem 2rem 0 0;
+        padding: 2rem 1.5rem 0 0;
       }
   }
+}
+
+.tiempos {
+  font-family: 'Tiempos Headline', serif;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('../fonts/tiempos-headline.woff2') format('woff2'),
+       url('../fonts/tiempos-headline.woff') format('woff');
+  font-display: swap;
 }
